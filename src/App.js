@@ -40,7 +40,7 @@ class App extends React.Component {
       scores.score = scores.score - scores.currentCost;
       scores.currentUpgrade = scores.currentUpgrade * 3;
       scores.currentLevel++;
-      scores.currentCost = scores.currentCost * 3;
+      scores.currentCost = scores.currentCost * 5;
       scores.currentAuto = scores.currentAuto * 2;
     }
 
