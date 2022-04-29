@@ -1,0 +1,17 @@
+.cookie {
+    width: 15%;
+    height: 15%;
+}
+
+.cookie:hover{
+    filter: brightness(1.25);
+}
+h3{
+    color:darkblue
+}
+
+.cookieCount{
+    color:red;
+}
+
+.counter{}
