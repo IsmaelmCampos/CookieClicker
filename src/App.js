@@ -38,10 +38,10 @@ class App extends React.Component {
     const scores = { ...this.state };
     if (scores.score >= scores.currentCost) {
       scores.score = scores.score - scores.currentCost;
-      scores.currentUpgrade = scores.currentUpgrade * 2;
+      scores.currentUpgrade = scores.currentUpgrade * 3;
       scores.currentLevel++;
       scores.currentCost = scores.currentCost * 3;
-      scores.currentAuto = scores.currentAuto * 4;
+      scores.currentAuto = scores.currentAuto * 2;
     }
 
     this.setState(scores);
